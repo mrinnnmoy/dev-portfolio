@@ -1,0 +1,203 @@
+/* Used for styles specific to the App component or top-level component styling. */
+
+:root {
+    --primary-color: #151213;
+    --card-grey: #fffefe;
+    --primary-text: #fffefe;
+    --secondary-text: #343235;
+    --tertiary-color: #8c8383;
+    --card-orange: #f56c39;
+    --card-green: #c4fe41;
+    --default-transition: 0.15s ease-in-out;
+}
+
+/* Home */
+header {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.header-left span {
+    color: var(--primary-text);
+    margin: .75rem;
+    font-size: 17.5px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-right .theme-icon {
+    color: var(--primary-text);
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.header-right .theme-icon:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: var(--default-transition);
+}
+
+.profile-card {
+    padding: 3.5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-self: center;
+    gap: 6rem;
+}
+
+.profile-card-left {
+    width: 350px;
+    height: 525px;
+    background: var(--card-grey);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card-left img {
+    height: 250px;
+    width: 200px;
+    border-radius: 1rem;
+}
+
+.profile-card-left span {
+    margin-top: 1rem;
+    font-size: 1.65rem;
+    font-weight: 700;
+}
+
+.profile-card-left p {
+    margin-top: 3.75rem;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+.profile-card-left .social-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-card-left .social-links .icons {
+    margin: 1rem;
+    font-size: 1.15rem;
+    color: var(--card-orange);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card-left .social-links .icons:hover {
+    cursor: pointer;
+    background-color: #eceded;
+    border-radius: 10%;
+    transition: var(--default-transition);
+}
+
+.profile-card-right {
+    padding: 0 1rem;
+}
+
+.profile-card-right h3 {
+    font-size: 5rem;
+    color: var(--primary-text);
+}
+
+.profile-card-right h5 {
+    font-size: 4rem;
+    color: var(--secondary-text);
+}
+
+.profile-card-right p {
+    color: var(--tertiary-color);
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.profile-card-right .small-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.profile-card-right .small-card .card span {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--primary-text);
+}
+
+.profile-card-right .small-card .card p {
+    font-size: 12px;
+}
+
+.resume-card {
+    margin-top: 1.75rem;
+    width: 330px;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #c4fe41;
+}
+
+.resume-card-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .75rem;
+}
+
+.resume-card-left .resume-icon {
+    color: var(--primary-color);
+    font-size: 1.35rem;
+}
+
+.resume-card-left span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.resume-card .resume-button {
+    text-decoration: none;
+}
+
+.resume-card .resume-button-icon {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.resume-card .resume-button-icon:hover {
+    color: var(--primary-text);
+    transition: var(--default-transition);
+}
