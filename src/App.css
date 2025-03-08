@@ -198,6 +198,84 @@ header {
 }
 
 .resume-card .resume-button-icon:hover {
-    color: var(--primary-text);
+    background-color: var(--primary-text);
+    border-radius: 10%;
     transition: var(--default-transition);
+}
+
+
+/* Projects */
+.project {
+    padding: 3rem;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-header h5 {
+    font-size: 4.5rem;
+    color: var(--primary-text);
+}
+
+.project-header h3 {
+    font-size: 5.5rem;
+    color: var(--secondary-text);
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 20px 0;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    padding: 1.75rem;
+    border-radius: 12px;
+    transition: var(--default-transition);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.project-details {
+    flex: 1;
+    margin-left: 1.5rem;
+
+}
+
+.project-details h4 {
+    font-size: 2.15rem;
+    font-weight: bold;
+    color: var(--primary-text);
+}
+
+.project-details p {
+    font-size: 1rem;
+    margin-top: .5rem;
+    color: var(--tertiary-color);
+}
+
+.project-card a {
+    color: var(--card-orange);
+    font-size: 20px;
+    transition: var(--default-transition);
+}
+
+.project-card a:hover {
+    color: #ff9100;
 }

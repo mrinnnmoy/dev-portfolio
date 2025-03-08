@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Images
-import pfp from "../assets/pfp.png";
-import mrinmoy from "../assets/mrinmoy.png";
+import pfp from "/assets/pfp.png";
+import mrinmoy from "/assets/mrinmoy.png";
 
 // Icons
 import { MdSunny } from "react-icons/md";
