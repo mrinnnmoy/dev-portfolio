@@ -279,3 +279,71 @@ header {
 .project-card a:hover {
     color: #ff9100;
 }
+
+
+/* Skills */
+
+.skills {
+    padding: 3rem;
+}
+
+.skills-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-header h5 {
+    font-size: 4.5rem;
+    color: var(--primary-text);
+}
+
+.skills-header h3 {
+    font-size: 3.5rem;
+    color: var(--secondary-text);
+}
+
+.skills-grid {
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.skills-card {
+    display: flex;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-card:hover {
+    transform: translateY(-5px);
+}
+
+.skills-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 15px;
+    background: var(--primary-text);
+    border-radius: 10%;
+}
+
+.skills-details h4 {
+    color: var(--primary-text);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.skills-details p {
+    font-size: 14px;
+    color: var(--tertiary-color);
+    margin: 2px 0 0;
+}
