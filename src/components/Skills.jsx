@@ -92,7 +92,7 @@ const Skills = () => {
         <>
             <div className="skills">
                 <div className="skills-header">
-                    <h5>Skills</h5>
+                    <h5>SKILLS</h5>
                     <h3>Languages, Frameworks & Tools.</h3>
                 </div>
 

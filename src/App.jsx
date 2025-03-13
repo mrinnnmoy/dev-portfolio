@@ -3,6 +3,7 @@ import "./App.css";
 import Home from './components/Home';
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import TechnicalWriting from './components/TechnicalWriting';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Home />
       <Projects />
       <Skills />
+      <TechnicalWriting />
     </>
   )
 };
