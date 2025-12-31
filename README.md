@@ -1,44 +1,79 @@
 # Portfolio Website.
 
-A sleek and modern portfolio website showcasing my journey as a blockchain developer, featuring my projects, articles and contributions to WEB3.
+A sleek & modern portfolio website showcasing my skills, projects, open-source contributions and articles in the decentralized ecosystem.
 
-[Sample Design](https://sawad.framer.website/)
+Designed to reflect my journey with a strong emphasis on clean UI, developer credibility and community engagement.
+
+- [Sample_Design-1](https://amritwt.me/)
+- [Sample_Design-2](https://ramx.in/)
+- [Sample_Design-3](https://www.tirthdhandhukia.com/)
 
 ## ⚠️ Why this Portfolio?
 
 To present:
-- My skills and experience in decentralized technologies.
-- Key projects I've developed.
-- Technical articles and Twitter threads I've authored.
-- An easy way for collaborators and employers to connect with me.
 
-## ✅ Features
+- A central hub for my Web3 work and professional identity.
+- A showcase of real-world blockchain projects & experiments.
+- A transparent view of Technical articles & Twitter threads I've authored.
+- An easy way for DAOs, startups, collaborators and recruiters to connect with me.
 
-1. **Home**: A brief introduction about me.
-2. **Tech Stack**: Highlights the tools and technologies I use.
-3. **Projects**: A showcase of my most significant work.
-4. **Articles & Threads**: Links to my blogs and Twitter threads.
-5. **Contact**: Easy connection points via email and social media.
+## ✨ Features.
 
-## 🛠 Tools and Frameworks Used
+1. **Navbar** : Shows current time, theme toggle and quick navigation.
+2. **Home / Hero** : Intro section with profile details, actions and current status.
+3. **Tech Stack** : Tools and technologies I use or am learning.
+4. **Projects** : Selected projects with details and links.
+5. **Experience** : Places I’ve worked and what I did there.
+6. **GitHub Activity** : GitHub contribution graph.
+7. **Blogs** : Featured blog posts with links.
+8. **Let’s Connect** : Ways to contact and collaborate.
+9. **Footer** : Social links and copyright info.
+
+## 🛠 Tools and Frameworks Used.
 
 - **ReactJS**: For building the frontend UI.
 - **Framer Motion**: To add animations for better user experience.
 - **Chakra UI**: For customizable and accessible design components.
 - **React Router**: For seamless navigation.
+- **GitHub APIs**: For Contribution graph.
 - **Vercel/Netlify**: For deploying the project.
 
-## 📂 Folder Structure
+## 👨‍💻 Project Building Steps.
 
-- **/src**: Contains React components, pages and assets.
-- **/public**: Static files such as images and icons.
-- **/styles**: Global CSS and custom styles.
+1. **Design the UI and layout** : Plan the portfolio structure, sections and overall visual style.
 
-## 🧑‍💻 Contributions to this repo are WELCOME.👋
+2. **Set up the project and routing** : Initialize the project, configure routes and organize folders for scalability.
 
-* 🎨 Any improvements to the design and UI are welcome.
-* 🔨 Try to break the website by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
+3. **Build reusable UI components** : Create modular components for sections like Hero, Projects, Blogs and Footer.
 
+4. **Implement theme and animations** : Add light/dark mode and smooth animations for better user experience.
+
+5. **Integrate GitHub data** : Fetch and display GitHub contribution activity and project data.
+
+6. **Add dynamic content sections** : Populate projects, blogs, experience and tech stack from structured data.
+
+7. **Optimize performance and responsiveness** : Ensure fast load times and smooth experience across all devices.
+
+8. **Test and debug the application** : Fix UI issues, broken links and edge cases.
+
+9. **Deploy the portfolio** : Deploy the site using Vercel or Netlify and monitor performance.
+
+## 📂 Folder Structure.
+
+```
+/src
+ ├─ components    # Reusable UI components
+ ├─ sections      # Page sections (Hero, Projects, Blogs, etc.)
+ ├─ pages         # Route-level components
+ ├─ assets        # Images, icons, static media
+ ├─ styles        # Global and theme styles
+/public           # Static files
+```
+
+## 🏗️ Contributions to this repo are WELCOME.👋
+
+- 🎨 Any improvements to the design and UI are welcome.
+- 🔨 Try to break the website by testing it to find any bugs. If you find any, check if there is an issue already open for it, if there is none, then report it.
 
 ## 🔃 Steps to be followed in order to make valid contributions to this repo.
 
@@ -48,10 +83,10 @@ To present:
 
         git clone "https://github.com/<your-github-username>/dev-portfolio"
 
-* Download and install Node JS v16.16.0
-* Download and install Git.
-* Go to the terminal of your code editor and run "npm install" to download packages.
-* Run "npm run dev" to start a local server.
+- Download and install Node JS v16.16.0
+- Download and install Git.
+- Go to the terminal of your code editor and run "npm install" to download packages.
+- Run "npm run dev" to start a local server.
 
 **3.** Make necessary changes and commit those changes. <br />
 Remember never push anything to the Main branch. <br />
