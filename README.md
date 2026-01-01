@@ -61,13 +61,18 @@ To present:
 ## 📂 Folder Structure.
 
 ```
-/src
- ├─ components    # Reusable UI components
- ├─ sections      # Page sections (Hero, Projects, Blogs, etc.)
- ├─ pages         # Route-level components
- ├─ assets        # Images, icons, static media
- ├─ styles        # Global and theme styles
-/public           # Static files
+
+├─ public/
+│  └─ assets/      # Static files (Images, icons and other media files)
+├─ src/
+│  ├─ components/  # Small, reusable UI components.
+│  ├─ data/        # Static data files used across the portfolio.
+│  ├─ sections/    # Main page sections. (Hero, Tech Stack, Projects, etc.)
+│  └─ pages/       # Detailed/Featured pages for projects, blogs and experience.
+├─ App.jsx         # Root file that assembles sections and manages routing.
+├─ App.css         # Styles for the main layout and App component.
+└─ index.css       # Global styles, CSS resets and base theme styles.
+
 ```
 
 ## 🏗️ Contributions to this repo are WELCOME.👋

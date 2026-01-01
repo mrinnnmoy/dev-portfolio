@@ -1,17 +1,28 @@
 import React from 'react'
 import "./App.css";
-import Home from './components/Home';
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import TechnicalWriting from './components/TechnicalWriting';
+
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import TechStack from "./sections/TechStack";
+import Projects from "./sections/Projects";
+import GitHubActivity from "./sections/GitHubActivity";
+import Experience from "./sections/Experience";
+import Blogs from "./sections/Blogs";
+import Connect from "./sections/Connect";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
-      <Home />
+      <Navbar />
+      <Hero />
+      <TechStack />
       <Projects />
-      <Skills />
-      <TechnicalWriting />
+      <GitHubActivity />
+      <Experience />
+      <Blogs />
+      <Connect />
+      <Footer />
     </>
   )
 };
